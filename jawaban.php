@@ -60,8 +60,8 @@ function randomColor(){
 	function is_inside_circle($x, $y)
 	{
 		// Pakai pythagoras, jika akar dari jarak $x ke titik_pusat(50,50) ditambah $y ke titik_pusat < 50, maka ia berada di dalam lingkaran
-		$pusat_x = 50;
-		$pusat_y = 50;
+		$pusat_x = 49.5;
+		$pusat_y = 49.5;
 
 		$jarak_x_ke_titik_pusat = $pusat_x - $x;
 		$jarak_y_ke_titik_pusat = $pusat_y - $y;
